@@ -1,10 +1,10 @@
 import React from "react";
-import VehicleInfo from "./Components/VehicleInfo";
+import Vehicle from "./Components/Vehicle";
 
 function App() {
   return (
     <div className="App">
-      <VehicleInfo />
+      <Vehicle />
     </div>
   );
 }
