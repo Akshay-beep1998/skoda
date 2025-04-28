@@ -1,10 +1,10 @@
-import React from "react";
-import Vehicle from "./Components/Vehicle";
+import React from 'react';
+import LogParser from './Components/LogParser'; // Import the component
 
 function App() {
   return (
-    <div className="App">
-      <Vehicle />
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+      <LogParser />
     </div>
   );
 }
